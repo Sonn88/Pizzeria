@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class = "container">
+    <div class ="content">
+        <h1>Pizzeria</h1>
+
+        <h2>Pizzeria Address:West Chessy AVE 123 CA 93706</h2>
+        <form>
+            <fieldset>
+                <legend>Customer</legend>
+                <div class = "row">
+                    <div>
+                        <label for="firstname">First</label>
+                        <input id="firstname" name="first-name" type="text">
+                    </div>
+                    <div>
+
+                        <label for="lastname">Last</label>
+                        <input id="lastname" name="last_name" type="text">
+                    </div>
+
+
+            </fieldset>
+
+
+        </form>
+    <div class="row">
+
+
+            <fieldset>
+                <legend> Main Toppings:</legend>
+                <div>
+                    <input type="radio" id="Pepperoni" name="Main Topping">
+                    <label for="Pepperoni">Pepperoni</label>
+                </div>
+                <div>
+                    <input type="radio" id="Mushroom" name="Main Topping">
+                    <label for="Mushroom">Mushroom</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="pepper" name="Main Topping">
+                    <label for="pepper">Pepper</label>
+                </div>
+
+
+                <div>
+                    <input type="radio" id="Cheese" name="Main Topping">
+                    <label for="Cheese">Cheese</label>
+                </div>
+
+
+
+            </fieldset>
+
+
+        <fieldset>
+            <legend>Size:</legend>
+            <div>
+                <input type="radio" id="small" name="size">
+                <label for="small">Small</label>
+            </div>
+
+            <div>
+                <input type="radio" id="medium" name="size">
+                <label for="medium">Medium</label>
+            </div>
+
+            <div>
+                <input type="radio" id="large" name="size">
+                <label for="large">Large</label>
+            </div>
+        </fieldset>
+
+
+
+
+            <fieldset>
+                <legend> Side Topping:</legend>
+                <div>
+                    <input type="checkbox" id=" extra Pepperoni" name="extra Pepperoni" value="extra Pepperoni">
+                    <label for=" extra Pepperoni">Pepperoni</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Onion" name=" Onion" value="Onion">
+                    <label for="Onion">Onion</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Bacon" name="Bacon" value="Bacon">
+                    <label for="Bacon">Bacon</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Extra Cheese" name="Extra Cheese" value="Extra Cheese">
+                    <label for="Extra Cheese">Extra Cheese</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Roast Tomatoes" name="Roast Tomatoes" value="Roast Tomatoes">
+                    <label for="Roast Tomatoes">Roast Tomatoes</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="Green peppers" name="Green peppers" value="Green peppers">
+                    <label for="Green peppers">Green peppers</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="Pineapple" name="Pineapple" value="Pineapple">
+                    <label for="Pineapple">Pineapple</label>
+
+            </fieldset>
+    </div>
+
+
+        <div>
+            <fieldset>
+                <legend>Extra piece </legend>
+                <label for="container"> Please Choose one</label>
+                <select name=" container" id="container">
+                    <option value="Bread Sticks">Mozzarella Sticks</option>
+                    <option value="Buffalo Wings">Buffalo Wings</option>
+                    <option value=" Cheesy garlic bread"> Cheesy garlic bread</option>
+                    <option value="Mac and Cheese">Mac and Cheese</option>
+                </select>
+            </fieldset>
+            <form>
+
+                <fieldset>
+                    <legend>Information:</legend>
+                    <div class="row">
+
+                        <div>
+
+                            <label for="Address">Address</label>
+                            <input id="Address" name="Address" type="text">
+                        </div>
+                        <div>
+
+                            <label for="Phone-Number">Phone-Number</label>
+                            <input id="Phone-Number" name="Phone-Number" type="text">
+                        </div>
+                    </div>
+                </fieldset>
+                <div>
+                    <fieldset>
+                        <legend>Special Requests</legend>
+                        <label for="Special Requests">Special Request</label>
+                        <textarea id="Special Requests" name="Special Requests" rows="4" cols="10" placeholder="Allergic to peanuts,substitution.etc"></textarea>
+                    </fieldset>
+                </div>
+                <button type="button" onclick="alert(`I want MONEY so like 100 dollars should do it `)"> Submit Order & Calculate Cost</button>
+
+
+
+            </form>
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
